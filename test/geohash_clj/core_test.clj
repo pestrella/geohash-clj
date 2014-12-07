@@ -21,5 +21,5 @@
            geohash))))
 
 (deftest test-neighbours
-  (is (= (neighbours "dqcjqc")
+  (is (= (get-neighbours "dqcjqc")
          ["dqcjqf" "dqcjqb" "dqcjr1" "dqcjq9" "dqcjqd" "dqcjr4" "dqcjr0" "dqcjq8"])))

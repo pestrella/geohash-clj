@@ -1,7 +1,6 @@
 ;; Ported from David Troy's geohash library for Javascript
 ;; Authors: Paolo Estrella
-(ns geohash-clj.core
-  (:require [clojure.string :refer [lower-case]]))
+(ns geohash-clj.core)
 
 (def bits [16, 8, 4, 2, 1])
 (def base32 "0123456789bcdefghjkmnpqrstuvwxyz")
